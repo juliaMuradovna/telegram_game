@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35c3ccb0.css",
+    "main.js": "/static/js/main.3102ad5f.js",
+    "static/js/685.5b23f540.chunk.js": "/static/js/685.5b23f540.chunk.js",
+    "static/media/young-man.png": "/static/media/young-man.b1d8d81c8063992b1146.png",
+    "static/media/promotion.svg": "/static/media/promotion.be009ac379de7f2a909517aa7a33ec31.svg",
+    "static/media/logo.svg": "/static/media/logo.b27fdd695ddc904809936ca859b595fa.svg",
+    "static/media/spinner-fidget-svgrepo-com.svg": "/static/media/spinner-fidget-svgrepo-com.8416fdf13f019d6fe876b3714c04eab3.svg",
+    "static/media/listing.svg": "/static/media/listing.eba5209cc247b9a7245897224daf49c6.svg",
+    "static/media/gift.svg": "/static/media/gift.39e808b909926539c75753332ee06309.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/strength-svgrepo-com.svg": "/static/media/strength-svgrepo-com.fd45a6a81161450e64d7469622d22ce6.svg",
+    "static/media/health-svgrepo-com.svg": "/static/media/health-svgrepo-com.29ef34112038ffa2d219b6d62c6a67e5.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/profile.svg": "/static/media/profile.75db64e279562b414f61ec9e656d98af.svg",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/visa.svg": "/static/media/visa.2b4034d519e7941f210b9a44299aadb9.svg",
+    "static/media/earning.svg": "/static/media/earning.30f93bfbc91b3f15aa20b89a9c90b848.svg",
+    "static/media/business.svg": "/static/media/business.4fa96381317d2f6807bff50d09e99bb7.svg",
+    "static/media/poker-chip.svg": "/static/media/poker-chip.6c29772fc4f011bdcae13b93dc5e846b.svg",
+    "static/media/investmants.svg": "/static/media/investmants.f7aa5f92ff2086d688d251b16a12a439.svg",
+    "static/media/marketplace.svg": "/static/media/marketplace.ac17238f891e3961d398a125db090767.svg",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/hand.svg": "/static/media/hand.1904a9ec7f63d1312978d31226eea8cf.svg",
+    "static/media/card-chip.svg": "/static/media/card-chip.8584d75058f57db8af836b2359b3f765.svg",
+    "static/media/mastercard.svg": "/static/media/mastercard.4d6114149347057be725507cad157b71.svg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.35c3ccb0.css",
+    "static/js/main.3102ad5f.js"
+  ]
+}
