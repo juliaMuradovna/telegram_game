@@ -6,6 +6,9 @@ import {
 import { useIntegration } from '@telegram-apps/react-router-integration';
 import { initNavigator } from '@telegram-apps/sdk-react';
 import Earnings from './pages/Earnings';
+import './Api'
+import Api from "./Api";
+import Game from "./pages/Game";
 
 try {
   init();
@@ -20,6 +23,7 @@ try {
   console.log(e);
 }
 
+
 function App() {
   const navigator = useMemo(() => initNavigator('app-navigation-state'), []);
   const [location, reactNavigator] = useIntegration(navigator);
@@ -29,10 +33,15 @@ function App() {
     return () => navigator.detach();
   }, [navigator]);
 
+  useEffect(() => {
+    Api.test()
+  }, []);
+
+
   return (
     <Router location={location} navigator={reactNavigator}>
       <Routes>
-        <Route path="/" element={<Earnings />} />
+        <Route path="/" element={<Game />} />
       </Routes>
     </Router>
   );
