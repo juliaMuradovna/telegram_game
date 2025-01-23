@@ -5,7 +5,6 @@ import {
 } from '@telegram-apps/sdk';
 import { useIntegration } from '@telegram-apps/react-router-integration';
 import { initNavigator } from '@telegram-apps/sdk-react';
-import Earnings from './pages/Earnings';
 import './Api'
 import Api from "./Api";
 import Game from "./pages/Game";
