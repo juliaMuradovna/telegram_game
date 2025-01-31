@@ -36,9 +36,11 @@ html, body, #root {
   background: linear-gradient(180deg, #042590, #03279ba6);
 
 }
-.personage{
+
+.personage {
   margin-top: 86px;
-min-height: 300px;
+  min-height: 250px;
+  padding-top: 20px;
 }
 
 #game {
@@ -136,6 +138,7 @@ min-height: 300px;
   background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 10px;
+
   svg {
     width: 30px;
     height: 30px;
@@ -151,10 +154,99 @@ min-height: 300px;
   background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 10px;
+
   svg {
     width: 30px;
     height: 30px;
     margin-left: 10px;
 
+  }
+}
+
+
+button {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);
+  background: linear-gradient(to right, #8CA6DB, #B993D6);
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.fight_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    margin-top: 40px;
+  }
+}
+
+.tg_modal_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  z-index: 10;
+}
+
+.users_modal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  width: 100%;
+  align-items: center;
+
+
+  ul {
+    list-style: none;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding-top: 40px;
+
+    li {
+      margin-bottom: 20px;
+
+      div {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgba(245, 228, 245, 1);
+
+        &.active {
+          box-shadow: 3px 2px 16px 2px rgba(245, 228, 245, 1);
+
+        }
+      }
+
+      img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+#fighting_user{
+  min-height: 100vh;
+  >div{
+    height: 100vh !important;
   }
 }

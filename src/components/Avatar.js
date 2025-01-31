@@ -7,11 +7,13 @@ export function Avatar(props) {
   const { nodes, materials } = useGLTF('models/6790df891b302170176c4054.glb')
   const { animations:waitingAnim } = useFBX('models/new-waiting.fbx')
   const { animations:tappingAnim } = useFBX('models/new-tapping.fbx')
+  const { animations:hitting1Anim } = useFBX('models/hit_1.fbx')
   waitingAnim[0].name = 'waiting'
   tappingAnim[0].name = 'tapping'
+  hitting1Anim[0].name = 'hitting1'
 
 
-  const { actions } = useAnimations([waitingAnim[0], tappingAnim[0]], ref)
+  const { actions } = useAnimations([waitingAnim[0], tappingAnim[0], hitting1Anim[0]], ref)
   useEffect(() => {
     actions[animation].reset().play()
 
